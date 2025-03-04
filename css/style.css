@@ -243,8 +243,11 @@
 }
 
 .step-img {
-  width: 35%;
-  /* z-index: 10; */
+  width: 35%;           /* Sets the width */
+  height: 35%;          /* Matches the width for a perfect circle */
+  border-radius: 50%;   /* Makes it round */
+  object-fit: cover;    /* Ensures the image fits */
+  display: block;       /* Prevents layout issues */
 }
 
 /**************************/
